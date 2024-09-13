@@ -1,22 +1,20 @@
-# My Dotfile Configuration
+# My Dotfiles Configuration
 
-These are my dotfiles that I distribute across my machines, I until now only use
+These are my `Dotfiles` that I distribute across my Mac's, until now I only use
 `zsh`
 
 ## Usage
 
-Because my Dotfiles live in a seperate Directory than Home we need to make use
+Because my `Dotfiles` live in a seperate Directory than Home we need to make use
 of symlinks
 
-`ln -s ~/Repos/Dotfiles/.zshrc ~/.zshrc`
+```Bash
+ln -s ~/Repos/Dotfiles/.zshrc ~/.zshrc
+ln -s ~/Repos/Dotfiles/.zprofile ~/.zprofile
+ln -s ~/Repos/Dotfiles/.p10k.zsh ~/.p10k.zsh
+```
 
 ## Requirements
 
-- [Oh My Zsh](https://ohmyz.sh/)
-- Zsh
-- kubectl (Kubernetes CLI)
-- Helm (Kubernetes package manager)
-- ArgoCD (GitOps tool)
-- Neovim (or Vim)
-- Docker
-- NVM (Node Version Manager)
+- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
