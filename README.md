@@ -1,8 +1,12 @@
-# My Dotfiles
+# My Dotfile Configuration
+
+These are my dotfiles that I distribute across my machines, I until now only use
+`zsh`
 
 ## Usage
 
-Because my Dotfiles live in a seperate Directory than Home we need to make use of symlinks
+Because my Dotfiles live in a seperate Directory than Home we need to make use
+of symlinks
 
 `ln -s ~/Repos/Dotfiles/.zshrc ~/.zshrc`
 
