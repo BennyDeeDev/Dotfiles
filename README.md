@@ -14,6 +14,8 @@ ln -s ~/Repos/Dotfiles/.zprofile ~/.zprofile
 ln -s ~/Repos/Dotfiles/.p10k.zsh ~/.p10k.zsh
 ```
 
+For `iterm2`, import and sync the `.plist` file.
+
 ## Requirements
 
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
