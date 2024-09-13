@@ -1329,6 +1329,7 @@
 			<true/>
 			<key>Normal Font</key>
 			<string>FiraCodeNFM-Reg 18</string>
+			<string>FiraCodeNFM-Reg 16</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<false/>
 			<key>Option Key Sends</key>
