@@ -155,7 +155,14 @@ alias cleandocker="docker container prune -f \
 && docker network prune -f \
 && docker volume prune -f"
 
+# Export
+
+export PATH="/opt/homebrew/bin:$PATH" 
+
 # Source
+
+source <(mise completion zsh)
+eval "$(mise activate)"
 
 source <(kubectl completion zsh)
 complete -F __start_kubectl k
@@ -169,4 +176,3 @@ source <(flux completion zsh)
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-eval "$(mise activate)"

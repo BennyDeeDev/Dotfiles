@@ -7,7 +7,16 @@ tap "fluxcd/tap"
 
 ## Dev
 
+brew "git"
+
 brew "mise"
+
+brew "node"
+brew "go"
+brew "ruby"
+brew "python"
+# brew "java"
+
 brew "hugo"
 
 ### Raylib
@@ -49,6 +58,7 @@ brew "fluxcd/tap/flux"
 
 brew "ffmpeg"
 brew "jq"
+brew "yq"
 brew "watch"
 brew "wget"
 brew "yt-dlp"
@@ -76,7 +86,6 @@ cask "rectangle"
 cask "spotify"
 cask "the-unarchiver"
 cask "visual-studio-code"
-cask "github"
 
 ## Private
 
