@@ -1,0 +1,101 @@
+# tap
+
+tap "teamookla/speedtest"
+tap "fluxcd/tap"
+
+# brew
+
+## Dev
+
+brew "mise"
+brew "hugo"
+
+### Raylib
+
+brew "raylib"
+brew "cmake"
+
+### Neovim
+
+brew "neovim"
+brew "lazygit"
+brew "ripgrep"
+brew "fd"
+
+## Ops
+
+brew "ansible"
+brew "terraform"
+brew "lazydocker"
+
+### SQL
+
+brew "mysql-client"
+brew "sqlc"
+brew "libpq"
+
+### Kubernetes
+
+brew "kubernetes-cli"
+brew "k9s"
+brew "helm"
+brew "kubecm"
+brew "kubectx"
+brew "kubeseal"
+brew "argocd"
+brew "fluxcd/tap/flux"
+
+## Utilities
+
+brew "ffmpeg"
+brew "jq"
+brew "watch"
+brew "wget"
+brew "yt-dlp"
+brew "teamookla/speedtest/speedtest"
+brew "gh"
+
+### Nonsense
+
+brew "sl"
+brew "neofetch"
+
+# cask
+
+cask "font-fira-code-nerd-font"
+
+## Must-have
+
+cask "google-chrome"
+cask "appcleaner"
+cask "docker"
+cask "iterm2"
+cask "keepassxc"
+cask "logitech-g-hub"
+cask "rectangle"
+cask "spotify"
+cask "the-unarchiver"
+cask "visual-studio-code"
+cask "github"
+
+## Private
+
+# cask "obs"
+# cask "raspberry-pi-imager"
+# cask "obsidian"
+# cask "google-drive"
+# cask "microsoft-teams"
+# cask "vlc"
+# cask "zoom"
+# cask "minecraft"
+# cask "ledger-live"
+# cask "discord"
+# cask "teamviewer"
+
+## Manual
+
+# amphetamine
+# bettersnaptool
+# epson software
+# kindle
+# wireguard
