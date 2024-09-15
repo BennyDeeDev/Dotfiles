@@ -15,7 +15,8 @@ use of symlinks with `./symlinks.sh`
 
 ### Brew
 
-Install `Brewfile` with `brew bundle`, private packages need to be uncommented
+Install `Brewfile` with `brew bundle`, private packages need to be uncommented.
+Sync packages regularly with `brew bundle cleanup --force`
 
 ### Mise
 
