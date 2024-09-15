@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ln -s .zshrc ~/.zshrc
-ln -s .zprofile ~/.zprofile
-ln -s .p10k.zsh ~/.p10k.zsh
-ln -s Brewfile ~/Brewfile
+ln -s ~/Repos/Dotfiles/.zshrc ~/.zshrc
+ln -s ~/Repos/Dotfiles/.zprofile ~/.zprofile
+ln -s ~/Repos/Dotfiles/.p10k.zsh ~/.p10k.zsh
+ln -s ~/Repos/Dotfiles/Brewfile ~/Brewfile
