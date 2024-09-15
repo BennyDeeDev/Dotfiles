@@ -114,7 +114,7 @@ export LANG=en_US.UTF-8
 
 alias dotconfig="cd ~/Repos/Dotfiles && nvim ."
 alias nvimconfig="cd ~/.config/nvim && nvim ."
-alias notes="cd ~/Google\ Drive/My\ Drive/Benjamin_Dokumente/Notizen && nvim ."
+alias notes="cd ~/Library/Mobile\ Documents/iCloud\~md\~obsidian/Documents/Notes && nvim ."
 alias blog="cd ~/Repos/hugo-blog && nvim ."
 
 prettierrc() {
