@@ -21,8 +21,7 @@ use of symlinks with `./symlinks.sh`
 
 ### Brew
 
-Install `Brewfile` with `cd .config/brew && brew bundle`, private packages need
-to be uncommented
+Install `Brewfile` with `brew bundle`, private packages need to be uncommented
 
 ### Mise
 
@@ -31,20 +30,21 @@ I use `Mise` exclusively for local development for example `mise use node@18` or
 
 ### iTerm2
 
-For `iTerm2`, import and sync the `.plist` file.
+For `iTerm2`, import the `iterm2.itermexport` File
 
 ### Docker
 
 - [Docker completion](https://docs.docker.com/engine/cli/completion/#zsh) needs
   to be installed manually
 
-### Prettier
-
-- Prettier has to be installed manually `npm i -g prettier`
-
 ### Clang
 
 - Clang has to be installed manually `xcode-select --install`
+
+### Dracula Pro
+
+- `Dracula Pro Van Helsing` has to be installed manually, inside `.config/nvim`,
+  `iTerm2`, and `google-chrome`
 
 ## Helpful Links
 

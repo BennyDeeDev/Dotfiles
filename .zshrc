@@ -158,6 +158,7 @@ alias cleandocker="docker container prune -f \
 # Export
 
 export PATH="/opt/homebrew/bin:$PATH" 
+
 export PATH="$PATH:$HOME/go/bin"
 
 # Source
