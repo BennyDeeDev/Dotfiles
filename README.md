@@ -91,6 +91,7 @@ For `iTerm2`, import the `iterm2.itermexport` File
 
 ### Mouse Settings
 
+- Disable **Mouse** acceleration.
 - Set **Tracking Speed** to 2.
 
 ### Mission Control
