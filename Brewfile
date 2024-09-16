@@ -60,6 +60,7 @@ brew "fluxcd/tap/flux"
 
 ## Utilities
 
+brew "rsync"
 brew "ffmpeg"
 brew "imagemagick"
 brew "jq"
@@ -72,10 +73,21 @@ brew "teamookla/speedtest/speedtest"
 brew "gh"
 brew "mas"
 
+### Yazi
+
+brew "yazi"
+
+brew "ffmpegthumbnailer"
+brew "sevenzip"
+brew "poppler"
+brew "fzf"
+brew "zoxide"
+
 ### Nonsense
 
 brew "sl"
 brew "neofetch"
+brew "circumflex"
 
 # cask
 
