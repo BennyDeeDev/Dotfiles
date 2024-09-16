@@ -63,6 +63,7 @@ For `iTerm2`, import the `iterm2.itermexport` File
 - Disable **Open folders in tabs instead of new windows**.
 - Enable all items in the Finder sidebar.
 - Add **Google Drive** to Finder.
+- In View Options sort and order by **Name**
 
 ### System Settings
 
