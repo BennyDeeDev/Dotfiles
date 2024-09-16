@@ -66,7 +66,7 @@ brew "jq"
 brew "yq"
 brew "watch"
 brew "wget"
-brew "htop"
+brew "btop"
 brew "yt-dlp"
 brew "teamookla/speedtest/speedtest"
 brew "gh"
@@ -106,6 +106,7 @@ cask "ledger-live"
 cask "discord"
 cask "teamviewer"
 cask "affinity-photo"
+cask "jdownloader"
 
 # mas
 
