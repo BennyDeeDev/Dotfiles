@@ -50,6 +50,7 @@ brew "sqlc"
 ### Kubernetes
 
 brew "kubernetes-cli"
+brew "stern"
 brew "k9s"
 brew "helm"
 brew "kubecm"
