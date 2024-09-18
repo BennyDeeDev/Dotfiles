@@ -100,6 +100,7 @@ cask "google-chrome"
 cask "appcleaner"
 cask "docker"
 cask "iterm2"
+# broken cask "logitech-g-hub" still installs
 cask "keepassxc"
 cask "rectangle"
 cask "spotify"
