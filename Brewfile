@@ -61,6 +61,7 @@ brew "fluxcd/tap/flux"
 
 ## Utilities
 
+brew "zsh-vi-mode"
 brew "rsync"
 brew "ffmpeg"
 brew "imagemagick"
