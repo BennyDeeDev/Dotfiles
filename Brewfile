@@ -2,6 +2,7 @@
 
 tap "teamookla/speedtest"
 tap "fluxcd/tap"
+tap "codecrafters-io/tap"
 
 # brew
 
@@ -18,6 +19,7 @@ brew "python"
 brew "java"
 brew "rust"
 
+brew "codecrafters"
 brew "hugo"
 brew "prettier"
 brew "eslint"
@@ -61,7 +63,8 @@ brew "fluxcd/tap/flux"
 
 ## Utilities
 
-brew "zsh-vi-mode"
+# brew "zsh-vi-mode"
+brew "tlrc"
 brew "rsync"
 brew "ffmpeg"
 brew "imagemagick"
@@ -107,6 +110,7 @@ cask "rectangle"
 cask "spotify"
 cask "the-unarchiver"
 cask "visual-studio-code"
+cask "zed"
 cask "github"
 
 ## Private
