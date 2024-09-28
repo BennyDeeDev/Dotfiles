@@ -63,7 +63,6 @@ brew "fluxcd/tap/flux"
 
 ## Utilities
 
-# brew "zsh-vi-mode"
 brew "tlrc"
 brew "rsync"
 brew "ffmpeg"
@@ -76,6 +75,7 @@ brew "btop"
 brew "yt-dlp"
 brew "teamookla/speedtest/speedtest"
 brew "gh"
+
 brew "mas"
 
 ### Yazi
@@ -104,16 +104,14 @@ cask "google-chrome"
 cask "appcleaner"
 cask "docker"
 cask "iterm2"
-# broken cask "logitech-g-hub" still installs
 cask "keepassxc"
 cask "rectangle"
 cask "spotify"
 cask "the-unarchiver"
 cask "visual-studio-code"
-cask "zed"
 cask "github"
 
-## Private
+## Personal
 
 cask "obs"
 cask "raspberry-pi-imager"

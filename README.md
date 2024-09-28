@@ -34,8 +34,8 @@ For `iTerm2`, import the `iterm2.itermexport` File
 
 ### Dracula Pro
 
-- `Dracula Pro Van Helsing` has to be installed manually, inside `.config/nvim`,
-  `iTerm2`, and `google-chrome`
+- `Dracula Pro Van Helsing` has to be installed manually, inside `.config/nvim`
+  and `iTerm2`
 
 ## Helpful Links
 
@@ -79,22 +79,26 @@ For `iTerm2`, import the `iterm2.itermexport` File
 
 ### Printer & Scanner
 
-- Set up your Printer and Scanner.
+- Set up Printer and Scanner.
 
 ### NAS
 
-- Connect to NAS
+- Connect to NAS with Finder
 
 ### Control Center
 
 - Show **Bluetooth**.
 - Show **Sound**.
+- Show **Display**
 - Don’t show **Keyboard**.
 
 ### Mouse Settings
 
 - Disable **Mouse** acceleration.
-- Set **Tracking Speed** to 2.
+
+### Keyboard Settings
+
+- **Key repeat Rate** and **Delay until repeat** completely to the left
 
 ### Mission Control
 

@@ -143,6 +143,8 @@ tasksjson() {
 EOF
 }
 
+alias n=nvim
+
 alias k=kubectl
 
 alias cleank8s="kubectl delete deployments --all \
@@ -174,8 +176,6 @@ source <(helm completion zsh)
 source <(argocd completion zsh)
 
 source <(flux completion zsh)
-
-# source /opt/homebrew/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
