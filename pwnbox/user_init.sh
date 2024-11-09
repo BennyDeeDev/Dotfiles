@@ -7,14 +7,19 @@ exec >"$LOGFILE" 2>&1
 # Log the start time
 echo "Starting user_init at $(date)"
 
-REPOFOLDER="$HOME/repos"
+REPOFOLDER="$HOME/Repos"
 mkdir -p "$REPOFOLDER"
 
+# Dotfiles
+DOTFILESFOLDER="$REPOFOLDER/Dotfiles"
+
+git clone https://github.com/BennyDeeDev/Dotfiles.git "$DOTFILESFOLDER"
+
 # Zshrc
-ln -s "$REPOFOLDER"/pwnbox/.zshrc ~/.zshrc
+ln -s "$DOTFILESFOLDER"/pwnbox/.zshrc ~/.zshrc
 
 # Oh My Zsh installation
-ln -s "$REPOFOLDER"/.p10k.zsh ~/.p10k.zsh
+ln -s "$DOTFILESFOLDER"/.p10k.zsh ~/.p10k.zsh
 
 export RUNZSH=yes
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -25,11 +30,13 @@ echo 'exec zsh' >>~/.bashrc
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-brew bundle --file="$REPOFOLDER"/pwnbox/Brewfile
+ln -s "$DOTFILESFOLDER"/pwnbox/Brewfile ~/Brewfile
+brew bundle
 
 # Nerdfont Firacode
 
-FONTFOLDER="$HOME/my_data/fonts"
+FONTFOLDER="$HOME/Fonts"
+mkdir -p "$FONTFOLDER"
 
 wget -P "$FONTFOLDER" https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip
 sudo unzip "$FONTFOLDER"/FiraCode.zip -d /usr/local/share/fonts
