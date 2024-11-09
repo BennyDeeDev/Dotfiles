@@ -45,11 +45,3 @@ mkdir -p "$FONTFOLDER"
 wget -P "$FONTFOLDER" https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip
 sudo unzip "$FONTFOLDER"/FiraCode.zip -d /usr/share/fonts
 fc-cache -fv
-
-# Neovim
-
-NEOVIMFOLDER="$HOME/.config/nvim"
-
-mkdir -p "$NEOVIMFOLDER"
-
-git clone https://github.com/BennyDeeDev/NeovimConfig.git "$NEOVIMFOLDER"
