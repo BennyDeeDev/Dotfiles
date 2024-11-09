@@ -16,7 +16,7 @@ DOTFILESFOLDER="$REPOFOLDER/Dotfiles"
 git clone https://github.com/BennyDeeDev/Dotfiles.git "$DOTFILESFOLDER"
 
 # Zshrc
-ln -s "$DOTFILESFOLDER"/pwnbox/.zshrc ~/.zshrc
+ln -sf "$DOTFILESFOLDER"/pwnbox/.zshrc ~/.zshrc
 
 export RUNZSH=yes
 export KEEP_ZSHRC=yes
@@ -28,7 +28,7 @@ echo 'exec zsh' >>~/.bashrc
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-ln -s "$DOTFILESFOLDER"/pwnbox/Brewfile ~/Brewfile
+ln -sf "$DOTFILESFOLDER"/pwnbox/Brewfile ~/Brewfile
 
 brew bundle --file="$DOTFILESFOLDER/pwnbox/Brewfile"
 
