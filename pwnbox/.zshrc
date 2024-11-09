@@ -103,4 +103,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
