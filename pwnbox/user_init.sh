@@ -7,7 +7,8 @@ exec >"$LOGFILE" 2>&1
 # Log the start time
 echo "Starting user_init at $(date)"
 
-REPOFOLDER="$HOME/my_data/repos"
+REPOFOLDER="$HOME/repos"
+mkdir -p "$REPOFOLDER"
 
 # Zshrc
 ln -s "$REPOFOLDER"/pwnbox/.zshrc ~/.zshrc
