@@ -1,9 +1,3 @@
-# Dev
-brew "rust"
-brew "node"
-brew "prettier"
-brew "eslint"
-
 # Neovim
 
 brew "neovim"
