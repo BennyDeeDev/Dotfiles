@@ -18,10 +18,8 @@ git clone https://github.com/BennyDeeDev/Dotfiles.git "$DOTFILESFOLDER"
 # Zshrc
 ln -s "$DOTFILESFOLDER"/pwnbox/.zshrc ~/.zshrc
 
-# Oh My Zsh installation
-ln -s "$DOTFILESFOLDER"/.p10k.zsh ~/.p10k.zsh
-
 export RUNZSH=yes
+export KEEP_ZSHRC=yes
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo 'exec zsh' >>~/.bashrc
@@ -31,7 +29,8 @@ NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Ho
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 ln -s "$DOTFILESFOLDER"/pwnbox/Brewfile ~/Brewfile
-brew bundle
+
+brew bundle --file="$DOTFILESFOLDER/pwnbox/Brewfile"
 
 # Nerdfont Firacode
 
@@ -39,7 +38,7 @@ FONTFOLDER="$HOME/Fonts"
 mkdir -p "$FONTFOLDER"
 
 wget -P "$FONTFOLDER" https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip
-sudo unzip "$FONTFOLDER"/FiraCode.zip -d /usr/local/share/fonts
+sudo unzip "$FONTFOLDER"/FiraCode.zip -d /usr/share/fonts
 fc-cache -fv
 
 # Neovim
