@@ -1,0 +1,27 @@
+# Dev
+brew "rust"
+brew "node"
+brew "prettier"
+brew "eslint"
+
+# Neovim
+
+brew "neovim"
+brew "lazygit"
+brew "ripgrep"
+brew "fd"
+
+# Utilities
+
+brew "tlrc"
+brew "jq"
+brew "yq"
+
+# Yazi
+
+brew "yazi"
+brew "ffmpegthumbnailer"
+brew "sevenzip"
+brew "poppler"
+brew "fzf"
+brew "zoxide"
