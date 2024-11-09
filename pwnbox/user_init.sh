@@ -18,6 +18,9 @@ git clone https://github.com/BennyDeeDev/Dotfiles.git "$DOTFILESFOLDER"
 # Zshrc
 ln -sf "$DOTFILESFOLDER"/pwnbox/.zshrc ~/.zshrc
 
+# p10k
+ln -sf "$DOTFILESFOLDER"/.p10k.zsh ~/.p10k.zsh
+
 export RUNZSH=yes
 export KEEP_ZSHRC=yes
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
