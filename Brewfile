@@ -23,6 +23,7 @@ brew "codecrafters"
 brew "hugo"
 brew "prettier"
 brew "eslint"
+brew "rust-analyzer"
 
 ### Raylib
 
@@ -63,6 +64,8 @@ brew "fluxcd/tap/flux"
 
 ## Utilities
 
+brew "bat"
+brew "eza"
 brew "tlrc"
 brew "rsync"
 brew "ffmpeg"
@@ -107,6 +110,7 @@ cask "iterm2"
 cask "keepassxc"
 cask "rectangle"
 cask "spotify"
+cask "iina"
 cask "the-unarchiver"
 cask "visual-studio-code"
 cask "github"

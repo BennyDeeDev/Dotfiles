@@ -162,6 +162,31 @@ ncd() {
   cd "$selected" && nvim .
 }
 
+ccd() {
+  local REPOS_DIR=~/Repos
+  local CONFIG_DIR=~/.config
+
+  if [[ ! -d "$REPOS_DIR" ]]; then
+    echo "$REPOS_DIR does not exist."
+    return 1
+  fi
+
+  if [[ ! -d "$CONFIG_DIR" ]]; then
+    echo "$CONFIG_DIR does not exist."
+    return 1
+  fi
+
+  local selected=$(find "$REPOS_DIR" "$CONFIG_DIR" -mindepth 1 -maxdepth 1 -type d | fzf)
+
+  if [[ -z "$selected" ]]; then
+    echo "No directory selected."
+    return 0
+  fi
+
+  cd "$selected"
+}
+
+
 alias n=nvim
 
 alias k=kubectl
@@ -186,6 +211,8 @@ export PATH="$PATH:$HOME/go/bin"
 
 source <(mise completion zsh)
 eval "$(mise activate)"
+
+eval "$(zoxide init zsh)"
 
 source <(kubectl completion zsh)
 complete -F __start_kubectl k
