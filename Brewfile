@@ -128,6 +128,7 @@ cask "discord"
 cask "teamviewer"
 cask "affinity-photo"
 cask "jdownloader"
+cask "godot"
 
 # mas
 
