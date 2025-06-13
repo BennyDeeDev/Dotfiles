@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOTFILES="$HOME/Repos/dotfiles-arch"
+DOTFILES="$HOME/Repos/dotfiles-linux"
 
 ln -sfn "$DOTFILES/nvim" ~/.config/nvim
 ln -sfn "$DOTFILES/i3" ~/.config/i3
