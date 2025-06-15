@@ -1,5 +1,5 @@
 font-family = FiraCode Nerd Font
 font-size = 16
-theme = catppuccin-mocha.conf
+theme = dark:catppuccin-mocha.conf,light:catppuccin-latte.conf
 quit-after-last-window-closed = true
 shell-integration = zsh
